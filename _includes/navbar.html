@@ -20,8 +20,9 @@
       <a href="https://genome.duke.edu" class="pull-left">
         <img class="navbar-logo" src="{{ page.root }}/assets/img/gcb-logo.png" alt="Duke GCB logo" />
       </a>
-      <a href="{{ site.dc_site }}" class="pull-left">
-        <img class="navbar-logo" src="{{ page.root }}/assets/img/dc-icon-black.svg" alt="Data Carpentry logo" />
+      {% comment %} The logo is a hack to accomodate the decision to change logo from Data Carpentry to The Carpentries. {% endcomment %}
+      <a href="{{ site.carpentries_site }}" class="pull-left">
+        <img class="navbar-logo" src="{{ page.root }}/assets/img/cp-logo-blue.svg" alt="The Carpentries logo" />
       </a>
       {% elsif site.carpentry == "lc" %}
       <a href="{{ site.lc_site }}" class="pull-left">
