@@ -26,7 +26,7 @@ kind: "workshop"
 repository: <USERNAME>/<PROJECT>
 
 # Email address, no mailto:
-# (Don't change this -- the contact address for your workshop will be set 
+# (Don't change this -- the contact address for your workshop will be set
 # in the index.md file)
 email: "team@carpentries.org"
 
@@ -53,7 +53,7 @@ swc_pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id=
 swc_post_survey: "https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id="
 training_post_survey: "https://www.surveymonkey.com/r/post-instructor-training"
 dc_pre_survey: "https://www.surveymonkey.com/r/dcpreworkshopassessment?workshop_id="
-dc_post_survey: https://duke.qualtrics.com/jfe/form/SV_a5yXftTug9DPKy9 # "https://www.surveymonkey.com/r/dcpostworkshopassessment?workshop_id="
+dc_post_survey: "https://duke.qualtrics.com/jfe/form/SV_a5yXftTug9DPKy9" # "https://www.surveymonkey.com/r/dcpostworkshopassessment?workshop_id="
 lc_pre_survey: "https://www.surveymonkey.com/r/lcpreworkshopsurvey?workshop_id="
 lc_post_survey: "https://www.surveymonkey.com/r/lcpostworkshopsurvey?workshop_id="
 
